@@ -11,8 +11,8 @@ namespace Autholas
     public class AuthService
     {
         // Your API configuration
-        private const string API_KEY = "autholas_baf8c829daa988cbb3baade26fa86f09bae302cfc14481d688cd360ae950a972";
-        private const string API_URL = "https://autholas.nicholasdevs.xyz/api/auth";
+        private const string API_KEY = "YOUR_API_KEY_HERE";
+        private const string API_URL = "https://autholas.nicholasdevs.my.id/api/auth";
         
         private static readonly HttpClient client = new HttpClient();
 
@@ -208,4 +208,5 @@ namespace Autholas
         public string ErrorCode { get; set; } = "";
         public string Message { get; set; } = "";
     }
+
 }
