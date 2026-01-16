@@ -12,7 +12,7 @@ namespace Autholas
     {
         // Your API configuration
         private const string API_KEY = "YOUR_API_KEY_HERE";
-        private const string API_URL = "https://autholas.nicholasdevs.my.id/api/auth";
+        private const string API_URL = "https://autholas.web.id/api/auth";
         
         private static readonly HttpClient client = new HttpClient();
 
@@ -210,3 +210,4 @@ namespace Autholas
     }
 
 }
+
